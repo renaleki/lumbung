@@ -57,7 +57,6 @@ git add Kontribusi.md
 git add .
 
 # Check Git Status
-```
 git status
 
 On branch master
@@ -73,10 +72,42 @@ git commit -m "Penambahan laman Bantuan Kontribusi"
 
 # Lakukan push ke repositori online (Github)
 git push
+
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 18.94 KiB | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To github.com:showcheap/lumbung.git
+   f599355..909ce31  master -> master
 ```
 
 ## 6. Ajukan Pull Request
 Setelah hasil suntingan kita terunggah ke repositori online Gitub, maka saatnya mengajukan Pull Request ke repo asli *[bgli/lumbung](https://github.com/bgli/lumbung)* dari repositori hasil fork (salinan) milik kamu *username_kamu/lumbung*.
 
+![Tombol Pull Request](gambar/Kontribusi-pull-request.png)
 
+Klik tombol *New Pull Request* untuk memulai mengajukan Pull Request
 
+![Laman pengajuan Pull Request](gambar/Kontribusi-laman-pr.png)
+
+Cuplikan layar di atas adalah contoh laman pada saat mengajukan pull request, perhatikan hal hal berikut ini sebelum mengajukan pull request
+
+* Pastikan statusnya adalah *Able to merge*
+* Pastikan *branch* sumber (milik kamu) dan *branch* tujuan sudah sesuai.
+
+Kemudian klik tombol *Create Pull Request* untuk melanjutkan, tambahkan pesan tambahan (format markdown) untuk mempermudah moderator memahami perubahan / penambahan pada kontribusi kamu.
+
+![Contoh Pesan Pull Request](gambar/Kontribusi-pesan-pr.png)
+
+Lanjutkan dengan klik tombol *Create Pull Request* 
+
+## 7. Tunggu Review Dari Moderator
+Untuk menghindari hal hal yang tidak diinginkan, makan kontribusi melalui pull request akan melalui proses moderasi. Harap bersabar sampai kontribusi anda disetujui dan di _merge_ ke repositori utama lumbung. Untuk mempercepat proses moderasi, lakukan hal hal berikut ini:
+
+* Pastikan menggunakan tata bahasa yang baik dan benar
+* Gunakan pesan pull request yang jelas (jelaskan perubahan atau penambahan yang anda lakukan)
+* Colek admin melalui [Grup Telegram BGLI](https://t.me/GNULinuxIndonesia)
+
+## 8. Selamat & Terimakasih
+Selamat dan terimakasih kami ucapkan kepada seluruh kontributor, semoga ilmu yang dibagikan dapat bermanfaat untuk kemajuan Teknologi khususnya Perangkat Lunak Bebas dan Terbuka di Indonesia.
