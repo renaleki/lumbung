@@ -65,12 +65,13 @@ Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
 	new file:   Kontribusi.md
-```
 
 # Kemudian commit
 git commit -m "Penambahan laman Bantuan Kontribusi"
+```
 
-# Lakukan push ke repositori online (Github)
+### Lakukan push ke repositori online (Github)
+```
 git push
 
 Counting objects: 5, done.
